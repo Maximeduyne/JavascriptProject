@@ -238,7 +238,7 @@ header .submenu:hover #cart::-webkit-scrollbar-thumb:hover {background: #555;}
 /*
 * Notification
 */
-#notification_container {
+.notification_container {
   position: fixed;
   top: 40px;
   right: 25px;
@@ -247,7 +247,7 @@ header .submenu:hover #cart::-webkit-scrollbar-thumb:hover {background: #555;}
   height: auto;
 }
 
-#notification_container .content {
+.notification_container .content {
   box-shadow: 0px 1px 5px 0px #adadad;
   background: #b2dbff;
   padding: 8px;
@@ -260,12 +260,12 @@ header .submenu:hover #cart::-webkit-scrollbar-thumb:hover {background: #555;}
   margin: 0 0 15px 0;
 }
 
-#notification_container .content img {
+.notification_container .content img {
   width: 25px;
   height: 25px;
 }
 
-#notification_container .content p {
+.notification_container .content p {
   margin: auto;
   font-weight: 600;
   font-size: 13px;
